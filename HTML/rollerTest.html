@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<script src="ARJS_Files/aframe.min.js"></script>    
+<script src="ARJS_Files/aframe-ar.js"></script>
+
+<a-scene embedded arjs = 'trackingMethod: best;'>
+<a-anchor hit-testing-enabled='true'>
+  <!--add our model --> 
+        <a-entity
+           position="0.5 -2 -0.5"
+           scale ="0.01 0.01 0.01"
+           obj-model="obj: url(Models/17367_Gravity_conveyor_roller_v1.obj);"></a-entity>
+<!-- animated circle lights -->
+<a-text value = "testing"></a-text>
+
+<!--Create Card Info Box Here --> 
+
+</a-anchor>    
+    <a-camera-static/>
+</a-scene>
+</html> 
