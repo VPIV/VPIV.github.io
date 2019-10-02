@@ -5,15 +5,12 @@
 
 <a-scene embedded arjs = 'trackingMethod: best;'>
 <a-anchor hit-testing-enabled='true'>
-    <a-assets>
-            <a-asset-itme id="roller-mtl" src="Models/theRightRotation.mtl"></a-asset-item>
-    </a-assets>
 
   <!--add our model --> 
         <a-entity
            position="-1 -4 -6.5"
            scale ="0.01 0.01 0.01"
-           obj-model="obj: url(Models/combinedNumberS.obj); mtl: #roller-mtl"></a-entity>
+           obj-model="obj: url(Models/theRightRotation.obj); mtl: url(Models/theRightRotation.mtl)"></a-entity>
 <!-- animated circle lights -->
 
 
