@@ -6,7 +6,6 @@
 <a-scene embedded arjs = 'trackingMethod: best;'>
 <a-anchor hit-testing-enabled='true'>
     <a-assets>
-            <a-asset-itme id="roller-obj" src="Models/theRightRotation.obj"></a-asset-item>
             <a-asset-itme id="roller-mtl" src="Models/theRightRotation.mtl"></a-asset-item>
     </a-assets>
 
@@ -14,7 +13,7 @@
         <a-entity
            position="-1 -4 -6.5"
            scale ="0.01 0.01 0.01"
-           obj-model="obj: #roller-obj; mtl: #roller-mtl"></a-entity>
+           obj-model="obj: url(Models/combinedNumberS.obj); mtl: #roller-mtl"></a-entity>
 <!-- animated circle lights -->
 
 
