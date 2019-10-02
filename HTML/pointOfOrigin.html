@@ -5,12 +5,8 @@
 
 <a-scene embedded arjs = 'trackingMethod: best;'>
 <a-anchor hit-testing-enabled='true'>
-    <a-assets>
-        <a-asset-item id="roll-obj" src="Models/colorfulRoller.obj"></a-assets-item>
-        <a-asset-item id="roll-mtl" src="Models/colorfulRoller.mtl"></a-assets-item>
-    </a-assets>
-    
-    <a-entity position="-1 -4 -7.5" scale="0.01 0.01 0.01" obj-model="obj: #roll-obj; mtl: #roll-mtl"></a-entity>
+
+    <a-entity position="0 0 0" scale="0.01 0.01 0.01" obj-model="obj: url(Models/colorfulRoller.obj); mtl: url(Models/colorfulRoller.mtl)"></a-entity>
 
 
 <!-- animated circle lights -->
